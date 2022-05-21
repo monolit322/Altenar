@@ -153,3 +153,20 @@ button{
     color: rgba(0, 0, 0, 0.38);
     position: absolute;
 }
+
+.link:active{
+    padding-top: 2px;
+}
+
+.link:hover{
+    background-color: lightgray;
+}
+
+.dots:active{
+    padding-top: 2px;
+}
+
+.dots:hover{
+    background-color: lightgray;
+}
+
