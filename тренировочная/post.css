@@ -1,0 +1,155 @@
+button{
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.plus::before{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 10px;
+}
+
+.plus::after{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 10px;
+    transform: rotate(90deg);
+}
+
+.top{
+    margin-top: 2rem;
+}
+
+.subtitle{
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.left h6{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.bottom{
+    margin-top: 2rem;
+    margin-bottom: -0.5rem;
+}
+
+.bottom button{
+    width: 158px;
+    height: 42px;
+    color: lightgray;
+    border-bottom: 2px solid transparent;
+}
+
+.bottom button:hover{
+    color: #2196F3;
+    border-color: #2196F3;
+}
+
+.bottom button:focus{
+    color: #2196F3;
+    border-color: #2196F3;
+}
+
+.right button{
+    background-color: #2196F3;
+    width: 158px;
+    height: 42px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.main_section{
+    margin-top: 24px;
+}
+
+.column{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.photo img{
+    width: 74px;
+    height: 74px;
+    border-radius: 7px;
+    margin-right: 1rem;
+}
+
+.user{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.name{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.circle{
+    width: 8px;
+    height: 8px;
+    border: 1px solid green;
+    border-radius: 100%;
+    background-color: green;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descr{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.user_name{
+    margin-left: 0.5rem;
+}
+
+.user_link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.date{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.38);
+    position: absolute;
+}
